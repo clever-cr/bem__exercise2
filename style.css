@@ -21,14 +21,6 @@ body {
   height: 104px;
   padding-left: 87px;
 }
-.logo {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-  letter-spacing: 0.1px;
-  color: #252b42;
-  max-width: 130px;
-}
 
 .navbar__menu-item {
   text-decoration: none;
@@ -38,6 +30,21 @@ body {
   letter-spacing: 0.2px;
   text-align: center;
   color: #737373;
+}
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  max-width: 130px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px;
+  gap: 80px;
 }
 .content__title {
   font-weight: 800;
@@ -61,7 +68,6 @@ body {
   align-items: center;
   padding: 10px 36px;
   gap: 10px;
-
   height: 48px;
   background: #ffa62b;
   border-radius: 37px;
@@ -80,13 +86,12 @@ body {
   background-color: white;
   color: #00a0c1;
 }
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 80px 0px;
-  gap: 80px;
+.btn--normal {
+  padding: 15px 40px;
+  height: 58px;
+  border-radius: 5px;
 }
+
 .markerting-section {
   display: flex;
   flex-direction: column;
@@ -110,12 +115,9 @@ body {
   color: #737373;
   max-width: 470px;
 }
-.section-card__title {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.1px;
-  color: #252b42;
+.section__description--card {
+  max-width: 245px;
+  text-align: left;
 }
 .section-card {
   display: flex;
@@ -129,6 +131,15 @@ body {
   border: 1px solid #e8e8e8;
   box-sizing: border-box;
 }
+
+.section-card__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
 .section-card__icon {
   width: 47.32px;
   height: 40.56px;
@@ -138,10 +149,7 @@ body {
   align-items: center;
   gap: 8px;
 }
-.section__description--card {
-  max-width: 245px;
-  text-align: left;
-}
+
 .markerting-section__cards {
   display: flex;
   flex-direction: column;
@@ -183,7 +191,6 @@ body {
   );
 }
 
-
 .client-card {
   box-sizing: border-box;
   display: flex;
@@ -191,7 +198,6 @@ body {
   align-items: flex-start;
   padding: 30px 35px;
   width: 257px;
-  /* height: 244px; */
   background-color: #ffffff;
   border: 1px solid #dedede;
   border-radius: 5px;
@@ -228,11 +234,18 @@ body {
 }
 .client-card__footer-name {
   font-weight: 600;
-  font-size: 14px; 
+  font-size: 14px;
   line-height: 24px;
   max-width: 95px;
   text-decoration: none;
   color: #ffa62b;
+}
+.general-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px;
+  gap: 80px;
 }
 .general-section__cards {
   display: flex;
@@ -243,14 +256,11 @@ body {
   width: 1048px;
   height: 244px;
 }
-
-.general-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 80px 0px;
-  gap: 80px;
+.general-section__cards--big-size {
+  width: 1046px;
+  height: 373px;
 }
+
 .team-card {
   box-sizing: border;
   display: flex;
@@ -262,10 +272,7 @@ body {
   background-color: #ffffff;
   border: 1px solid #eeeeee;
 }
-.general-section__cards--big-size{
-  width: 1046px;
-  height: 373px;
-}
+
 .team-card__img {
   width: 328px;
   height: 231px;
@@ -292,7 +299,6 @@ body {
   background-image: url(img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 821px; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -323,12 +329,6 @@ body {
   height: 140px;
 }
 
-.btn--normal {
-  padding: 15px 40px;
-
-  height: 58px;
-  border-radius: 5px;
-}
 .contact-us {
   height: 142px;
   display: flex;
@@ -377,7 +377,6 @@ body {
   align-items: flex-start;
   padding: 0px;
   gap: 20px;
-
   height: 170px;
 }
 .footer__links {
@@ -393,7 +392,7 @@ body {
   margin-right: 25px;
   font-weight: 600;
   font-size: 14px;
- color: #bdbdbd;
+  color: #bdbdbd;
   text-align: left;
   margin-right: 0px;
   width: max-content;
@@ -401,9 +400,7 @@ body {
 .footer__contacts {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-
   padding: 56px 0px;
-  /* width: 1041px; */
   height: 170px;
   gap: 40px;
 }
@@ -443,7 +440,6 @@ body {
   width: 100%;
   left: 0px;
   right: 0px;
-
   bottom: 0%;
   z-index: 9;
 }
