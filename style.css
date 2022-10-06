@@ -21,7 +21,7 @@ body {
   height: 104px;
   padding-left: 87px;
 }
-.navbar__logo {
+.logo {
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -300,7 +300,7 @@ body {
   padding: 60px 200px;
 }
 
-.card__inputsearch1 {
+.contact-section__input {
   box-sizing: border-box;
   background: #f9f9f9;
   border: 1px solid #bdbdbd;
@@ -318,7 +318,7 @@ body {
   margin-bottom: 15px;
   margin-right: 12px;
 }
-.card__inputsearch1--big {
+.contact-section__input--big {
   width: 598px;
   height: 140px;
 }
@@ -329,7 +329,7 @@ body {
   height: 58px;
   border-radius: 5px;
 }
-.section__footer {
+.contact-us {
   height: 142px;
   display: flex;
   flex-direction: row;
@@ -349,7 +349,7 @@ body {
   gap: 40px;
   padding: 30px 134px;
 }
-.navbar__logo--footer {
+.logo--footer {
   color: #ffffff;
 }
 .footer__header {
@@ -367,7 +367,7 @@ body {
   border: 1px solid #364067;
   margin-top: 80px;
 }
-.client__card-footer-title--white {
+.footer__info-title {
   color: #ffffff;
 }
 .footer__info {
@@ -388,8 +388,12 @@ body {
   width: 100px;
   height: 126px;
 }
-.navbar__menu-item--footer {
-  color: #bdbdbd;
+.footer__link {
+  text-decoration: none;
+  margin-right: 25px;
+  font-weight: 600;
+  font-size: 14px;
+ color: #bdbdbd;
   text-align: left;
   margin-right: 0px;
   width: max-content;
