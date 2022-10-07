@@ -420,11 +420,11 @@ body {
   border-start-start-radius: 0;
   border-end-start-radius: 0;
 }
-.footer__copyright {
+.copyright {
   height: 74px;
   background: #16697a;
 }
-.footer__copyright-text {
+.copyright__text {
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
